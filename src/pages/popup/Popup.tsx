@@ -17,7 +17,7 @@ const Popup = () => {
       }}>
       <header className="App-header" style={{ color: theme === 'light' ? '#000' : '#fff' }}>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-amber-500">
           Edit <code>src/pages/popup/Popup.tsx</code> and save to reload.
         </p>
         <a
@@ -26,7 +26,7 @@ const Popup = () => {
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: theme === 'light' && '#0281dc', marginBottom: '10px' }}>
-          Learn React!
+          Learn React!!
         </a>
         <button
           style={{
